@@ -5,6 +5,7 @@ import {OrbitControls, PerspectiveCamera, RenderTexture, Sphere, Text} from "@re
 import Test from './Test'
 import Hero from './Hero'
 import WebDesign from './WebDesign'
+import Description from './Description'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Test/>
       <WebDesign/>
+      <Description/>
     </div>
   )
 }
