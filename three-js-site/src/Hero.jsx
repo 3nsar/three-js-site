@@ -4,10 +4,10 @@ import {OrbitControls, PerspectiveCamera, RenderTexture, Text} from "@react-thre
 import Cube from './Cube'
 import Ball from './Ball'
 
+
 const Hero = () => {
   return (
     <div className='container'>
-        <h1>Hello </h1>
        <Canvas> {/*FRAME AND INSIDE WE CAN NOT CREATE SOME HTML CODE LIKE <div>*/}
             <OrbitControls enableZoom={false} autoRotate/> {/*ROTATE*/}
             <ambientLight intensity={1}/>
