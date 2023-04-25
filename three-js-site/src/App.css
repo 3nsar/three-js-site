@@ -18,22 +18,10 @@ body{
 }
 
 .nav-container{
-  background-color: rgb(203, 24, 24);
+  background-color: rgb(90, 24, 245);
   display: flex;
   align-items: center;
-  flex-direction: row;
-}
-
-.nav-content{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-content ul{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  color: white;
+  font-family: fantasy;
 }
